@@ -6,6 +6,6 @@ public class Game {
 		
 		Simulator sim1 = new Simulator();
 		
-		sim1.Attack(8, 5, 5, "3d7");
+		sim1.attack(8, 5, 5, "3d7");
 	}
 }

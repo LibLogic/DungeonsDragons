@@ -2,7 +2,7 @@ package dungeons;
 
 public class Simulator {
 	
-	public int Attack(int AC, int dMod, int aMod, String damageDice) {
+	public int attack(int AC, int dMod, int aMod, String damageDice) {
 		Die d20 = new Die();
 		Die damageDie = new Die();
 		int damage = 0;
