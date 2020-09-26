@@ -25,7 +25,7 @@ public class Simulator {
 			return 0;
 		}
 		
-		if(d20Roll + aMod > enemyDefenseValue){
+		if(d20Roll + aMod >= enemyDefenseValue){
 			damage = damageDie.roll(damageDice);
 			System.out.println("Damage Dice Total:\t" + damage);
 			System.out.println("\nHit! " + "Damage Dealt\t" +  damage);
