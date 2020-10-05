@@ -1,4 +1,4 @@
-package dungeons;
+package simulator;
 
 public class Game {
 
@@ -6,6 +6,6 @@ public class Game {
 		
 		Simulator sim1 = new Simulator();
 		
-		sim1.attack(8, 5, 5, "3d7");
+		sim1.attack(8, 5, 5, "4d7");
 	}
 }
